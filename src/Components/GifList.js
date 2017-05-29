@@ -1,6 +1,5 @@
 import React from 'react'
 import Gif from './Gif'
-import NoGifs from './NoGifs'
 
 const GifList = props => {
   const results = props.data
@@ -10,7 +9,7 @@ const GifList = props => {
       <Gif user={props.userId} title={gif.title} body={gif.body} key={gif.id} />
     ))
   } else {
-    gifs = <NoGifs />
+    console.log('nie ma artykulow');
   }
 
   return (
