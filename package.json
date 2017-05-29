@@ -1,0 +1,23 @@
+{
+  "name": "gif-search",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "pui-react-pagination": "^8.1.0",
+    "rc-pagination": "^1.9.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-paginate": "^4.4.2",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
